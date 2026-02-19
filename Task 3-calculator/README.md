@@ -60,8 +60,8 @@ CODSOFT-CALCULATOR
 
 ## 🧑‍💻 Author
 
-**Name:** Saurav Kolekar
-**Email:** [sauravkolekar8007@gmail.com](mailto:sauravkolekar8007@gmail.com)
+**Name:** Tanmay Taware
+**Email:** [tanmaytaware2005@gmail.com](mailto:tanmaytaware2005@gmail.com)
 **Internship:** CODSOFT – Web Development
 
 ---
