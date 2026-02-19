@@ -1,0 +1,106 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #1f3c88;
+    color: white;
+    padding: 15px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #1f3c88, #163172);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.hero p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: white;
+    color: #1f3c88;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Services */
+.services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.service-box {
+    display: inline-block;
+    width: 28%;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* About */
+.about {
+    text-align: center;
+    padding: 40px 20px;
+    background: #e9ecef;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Footer */
+footer {
+    background: #1f3c88;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .service-box {
+        width: 90%;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+}
